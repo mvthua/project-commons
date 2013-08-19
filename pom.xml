@@ -5,6 +5,12 @@
 
   <modelVersion>4.0.0</modelVersion>
 
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
+
   <groupId>com.project.commons</groupId>
   <artifactId>commons-root-pom</artifactId>
   <version>1.0-SNAPSHOT</version>
@@ -13,7 +19,7 @@
   <name>Commons :: Root POM</name>
 
   <modules>
-    <module>aop-logging</module>
+    <module>logging</module>
   </modules>
 
   <prerequisites>
@@ -162,8 +168,21 @@
   </build>
 
   <!-- Project Information -->
-  <inceptionYear>2012</inceptionYear>
+  <description>Common project utilities</description>
+  <inceptionYear>2013</inceptionYear>
+  <url>https://github.com/mvthua/project-commons</url>
 
+  <licenses>
+    <license>
+      <name>GNU GENERAL PUBLIC LICENSE, Version 2.0</name>
+      <url>http://choosealicense.com/licenses/gpl-v2/</url>
+    </license>
+  </licenses>
+  <scm>
+    <connection>scm:git@github.com:mvthua/project-commons.git</connection>
+    <developerConnection>scm:git@github.com:mvthua/project-commons.git</developerConnection>
+    <url>git@github.com:mvthua/project-commons.git</url>
+  </scm>
   <developers>
     <developer>
       <id>mhua</id>
