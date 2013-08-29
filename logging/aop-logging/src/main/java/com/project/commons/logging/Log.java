@@ -33,7 +33,7 @@ public class Log {
         log.debug("Signature declaring type : "+ joinPointParam.getSignature().getDeclaringTypeName());
         log.debug("Signature name : " + joinPointParam.getSignature().getName());
         log.debug("Arguments : " + Arrays.toString(joinPointParam.getArgs()));
-        System.out.println("Target class : "+ joinPointParam.getTarget().getClass().getName());
+        // System.out.println("Target class : "+ joinPointParam.getTarget().getClass().getName());
         // System.out.println("This class : " + joinPointParam.getThis().getClass().getName());
     }
 
