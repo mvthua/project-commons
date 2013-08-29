@@ -2,6 +2,8 @@ package com.project.commons.logging;
 
 import org.springframework.stereotype.Component;
 
+import com.project.commons.logging.annotation.Loggable;
+
 /**
  * Created with IntelliJ IDEA.
  * User: exist
@@ -11,7 +13,8 @@ import org.springframework.stereotype.Component;
  */
 @Component
 public class SampleImpl implements Sample {
-    @Logged
+
+    @Loggable
     public void sample() {
         System.out.println("Sample!");
     }

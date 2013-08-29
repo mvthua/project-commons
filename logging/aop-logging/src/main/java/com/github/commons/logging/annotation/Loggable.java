@@ -2,7 +2,7 @@
  * Copyright (c) 2012.
  * All rights reserved.
  */
-package com.project.commons.logging;
+package com.project.commons.logging.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
@@ -16,5 +16,5 @@ import java.lang.annotation.Target;
 @Documented
 @Retention(RetentionPolicy.RUNTIME)
 @Target(value = ElementType.METHOD)
-public @interface Logged {
+public @interface Loggable {
 }

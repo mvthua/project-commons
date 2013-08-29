@@ -19,9 +19,9 @@ import org.springframework.stereotype.Component;
  */
 @Aspect
 @Component
-public class Logging {
+public class Log {
 
-    @Pointcut("@annotation(com.project.commons.logging.Logged)")
+    @Pointcut("@annotation(com.project.commons.logging.annotation.Loggable)")
     private void log() {
     }
 
