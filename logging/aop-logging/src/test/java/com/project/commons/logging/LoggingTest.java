@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2012.
+ * Copyright (c) 2013.
  * All rights reserved.
  */
 package com.project.commons.logging;
@@ -19,9 +19,15 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 @RunWith(SpringJUnit4ClassRunner.class)
 public class LoggingTest {
 
+    /**
+     * @
+     */
     @Autowired
     private Sample sample;
 
+    /**
+     * @
+     */
     @Test
     public void test() {
         sample.sample();

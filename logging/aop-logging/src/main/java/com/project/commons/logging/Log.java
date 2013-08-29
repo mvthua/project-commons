@@ -1,5 +1,5 @@
 /*
- * Copyright (c) 2012.
+ * Copyright (c) 2013.
  * All rights reserved.
  */
 package com.project.commons.logging;
@@ -21,10 +21,16 @@ import org.springframework.stereotype.Component;
 @Component
 public class Log {
 
+    /**
+     * Monitor method that are annotated.
+     */
     @Pointcut("@annotation(com.project.commons.logging.annotation.Loggable)")
     private void log() {
     }
 
+    /**
+     * @param joinPointParam
+     */
     @Before("log()")
     public void before(JoinPoint joinPointParam) {
         final Logger log = LoggerFactory.getLogger(joinPointParam.getTarget().getClass().getName());
