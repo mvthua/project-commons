@@ -24,6 +24,7 @@
   <name>Commons :: Root POM</name>
 
   <modules>
+    <module>audit</module>
     <module>log</module>
   </modules>
 
