@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 /**
  * @author mhua
  */
-@ContextConfiguration(locations = "classpath:ctx-test.xml")
+@ContextConfiguration(locations = "classpath:ctx-annotation-test.xml")
 @RunWith(SpringJUnit4ClassRunner.class)
 public class LogTest {
 
