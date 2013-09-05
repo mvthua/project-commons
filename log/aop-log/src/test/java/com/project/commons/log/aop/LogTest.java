@@ -15,7 +15,7 @@ import com.project.commons.log.Sample;
 /**
  * @author mhua
  */
-@ContextConfiguration(locations = "classpath:ctx-annotation-test.xml")
+@ContextConfiguration(locations = "classpath:ctx-custom-test.xml")
 @RunWith(SpringJUnit4ClassRunner.class)
 public class LogTest {
 
