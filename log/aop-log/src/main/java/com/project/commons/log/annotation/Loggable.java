@@ -2,7 +2,7 @@
  * Copyright (c) 2013.
  * All rights reserved.
  */
-package com.project.commons.logging.annotation;
+package com.project.commons.log.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;

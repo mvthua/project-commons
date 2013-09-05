@@ -17,9 +17,9 @@
     <relativePath>../..</relativePath>
   </parent>
 
-  <artifactId>aop-logging</artifactId>
+  <artifactId>aop-log</artifactId>
 
-  <name>Commons :: Logging :: AOP</name>
+  <name>Commons :: Log :: AOP</name>
 
   <dependencies>
     <!-- Spring Dependencies -->

@@ -14,5 +14,5 @@
 
   <aop:aspectj-autoproxy/>
 
-  <context:component-scan base-package="com.project.commons.logging"/>
+  <context:component-scan base-package="com.project.commons.log.aop"/>
 </beans>

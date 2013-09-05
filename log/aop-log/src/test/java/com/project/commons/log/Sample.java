@@ -2,7 +2,7 @@
  * Copyright (c) 2013.
  * All rights reserved.
  */
-package com.project.commons.logging;
+package com.project.commons.log;
 
 /**
  * @author mhua

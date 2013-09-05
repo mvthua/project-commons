@@ -12,7 +12,7 @@
     </encoder>
   </appender>
 
-  <logger name="com.project.commons.logging" level="DEBUG"/>
+  <logger name="com.project.commons.log" level="DEBUG"/>
 
   <root level="WARN">
     <appender-ref ref="STDOUT" />

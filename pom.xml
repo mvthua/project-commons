@@ -24,7 +24,7 @@
   <name>Commons :: Root POM</name>
 
   <modules>
-    <module>logging</module>
+    <module>log</module>
   </modules>
 
   <prerequisites>
