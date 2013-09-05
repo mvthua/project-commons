@@ -2,7 +2,7 @@
  * Copyright (c) 2013.
  * All rights reserved.
  */
-package com.project.commons.audit.annotations;
+package com.project.commons.audit.annotation;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
