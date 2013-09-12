@@ -23,5 +23,6 @@
 
   <modules>
     <module>aop-audit-basic</module>
+    <module>audit-basic</module>
   </modules>
 </project>
