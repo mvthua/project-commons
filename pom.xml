@@ -247,8 +247,8 @@
     </license>
   </licenses>
   <scm>
-    <connection>scm:git:ssh://github.com/mvthua/project-commons.git</connection>
-    <developerConnection>scm:git:ssh://github.com/mvthua/project-commons.git</developerConnection>
+    <connection>scm:git:ssh://git@github.com/mvthua/project-commons.git</connection>
+    <developerConnection>scm:git:ssh://git@github.com/mvthua/project-commons.git</developerConnection>
     <url>https://github.com/mvthua/project-commons.git</url>
   </scm>
   <developers>
