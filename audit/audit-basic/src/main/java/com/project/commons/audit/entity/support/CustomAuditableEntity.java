@@ -24,14 +24,14 @@ import org.springframework.data.jpa.domain.AbstractPersistable;
 public class CustomAuditableEntity<PK extends Serializable> extends AbstractPersistable<PK> {
 
     /**
-     * @
+     * TODO
      */
     @Column(name = "CREATED_BY")
     @CreatedBy
     private String createdBy;
 
     /**
-     * @
+     * TODO
      */
     @Column(name = "CREATED_DATETIME")
     @CreatedDate
@@ -40,14 +40,14 @@ public class CustomAuditableEntity<PK extends Serializable> extends AbstractPers
     private DateTime createdDateTime;
 
     /**
-     * @
+     * TODO
      */
     @Column(name = "LAST_UPDATED_BY")
     @LastModifiedBy
     private String lastUpdatedBy;
 
     /**
-     * @
+     * TODO
      */
     @Column(name = "LAST_UPDATED_DATETIME")
     @LastModifiedDate
@@ -56,7 +56,7 @@ public class CustomAuditableEntity<PK extends Serializable> extends AbstractPers
     private DateTime lastUpdatedDateTime;
 
     /**
-     * @return
+     * @return TODO
      */
     public String getCreatedBy() {
         return createdBy;
@@ -70,7 +70,7 @@ public class CustomAuditableEntity<PK extends Serializable> extends AbstractPers
     }
 
     /**
-     * @return
+     * @return TODO
      */
     public DateTime getCreatedDateTime() {
         return createdDateTime;
@@ -84,7 +84,7 @@ public class CustomAuditableEntity<PK extends Serializable> extends AbstractPers
     }
 
     /**
-     * @return
+     * @return TODO
      */
     public String getLastUpdatedBy() {
         return lastUpdatedBy;
@@ -98,7 +98,7 @@ public class CustomAuditableEntity<PK extends Serializable> extends AbstractPers
     }
 
     /**
-     * @return
+     * @return TODO
      */
     public DateTime getLastUpdatedDateTime() {
         return lastUpdatedDateTime;
